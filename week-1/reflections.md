@@ -1,6 +1,9 @@
 # 1.1 Think About Time
+
 [video!](https://devbootcamp.instructure.com/courses/8/assignments/74/submissions/411)
+
 # 1.2 The Command Line
+
 Shell is the actual communication from the computer and the user while Bash is where the user actually puts the input.
 I would have to say that the most challenging part of this assignment would be the memorization. There are a ton of commands to learn, and getting them all down can be a bit of a pain.
 I was able to use all of the commands, not all of them on the first go, but eventually with some outside research I got them all to work.
@@ -16,4 +19,5 @@ less, displaces the contents of a file in a new page on your terminal
 rmdir, removes folders
 rm, removes files, different from rmdir
 help, man on unix, gives you the description and generic uses of what ever command you have called.
+
 # 1.3 Forking and Cloning
