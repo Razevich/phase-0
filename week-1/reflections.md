@@ -20,4 +20,7 @@ rmdir, removes folders
 rm, removes files, different from rmdir
 help, man on unix, gives you the description and generic uses of what ever command you have called.
 
-  # 1.3 Forking and Cloning
+# 1.3 Forking and Cloning
+
+1) Instructions: First things first, you need to go to www.github,com  (Links to an external site.)and create an account. When that is done in the upper right corner there is a + sign. You will click that + sign and two options will come up. Click on the one that says "Create Repository". This will take you to a new page, on there you will add the name of the repository, if you want it public or private, any description you would like to add, and if you want to add a license. This is how you Create a Repository. Now for forking one, you go to the same right side of the page. Under the + sign where you created your repository, you click the word fork. Some options of where you want to fork the repository will come up, click on where you want it to go. This will create a version on that profile. To clone this to your computer, copy the HTTP on the lower part of the page. This will be labeled as HTTP clone. Open your command line and go to the folder you wish to save it to. From there type git clone <paste here> and hit enter. This will save onto your computer so you can work on it without changing the master file.
+2) I had no struggles setting this up. I learned that git and GitHub are amazingly well made.
