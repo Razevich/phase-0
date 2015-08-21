@@ -1,0 +1,19 @@
+
+- Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
+- Describe what open source means.
+- What do you think about Open Source? Does it make you nervous or protective? Does it feel like utopia?
+- Assess the importance of using licenses.
+- What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?
+- Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+
+1) On the right hand side of your github account, there will be a +. Click that and select the option "create repository" Follow the prompts. On the lower right side there will be a clone option, undernearth that, there will be a link. Copy that link into your terminal with your git file on your computer. This will clone your github repository to your OS.
+
+2) Open Source allows anyone to use the work you have created. They can work from it or modify it at their will. They do not have to pay for this.
+
+3) Open Source seems great for the public, and hell for trying to make money.
+
+4) Licenses are important to protect what you have created so that someone else does not come to use your work without payment.
+
+5) The hardest part of this challange was the pull/push from my git to github. I hate it, I hate it so damn much. I know it is important, but I still hate it.
+
+6) I was able to use two of my friends for help. I will not share them, they are my friends and I am keeping them to myself. I know I am greedy.
