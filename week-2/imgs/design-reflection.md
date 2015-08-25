@@ -1,4 +1,4 @@
-![Site_map!](/Desktop/Phase-0/phase-0/week-2/imgs/site_map.png)
+![Site_map!](https://github.com/Razevich/phase-0/blob/master/week-2/imgs/Site_map.png)
 
 The 6 Phases of Web Design are
   ~Information Gathering
