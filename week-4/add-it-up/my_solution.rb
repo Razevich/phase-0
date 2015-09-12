@@ -18,7 +18,6 @@
 def total(nums)
   sum = 0
   nums.each {|i| sum = (sum + i)}
-  p sum
 end
 
 
