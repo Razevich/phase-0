@@ -33,9 +33,26 @@ class Die
   end
 end
 
-die = Die.new(["a", "b","d"])
-p die.roll
+# die = Die.new(["a", "b","d"])
+# p die.roll
 # Refactored Solution
+class Die
+  def initialize(labels)
+    if labels == []
+      raise ArgumentError.new("Please use an array with shit in it")
+    end
+    @labels = labels
+    @sides = @labels.length
+  end
+
+  def sides
+    @sides
+  end
+
+  def roll
+    @labels.sample
+  end
+end
 
 
 

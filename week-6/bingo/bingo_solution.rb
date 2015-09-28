@@ -43,42 +43,51 @@ end
 
 # Initial Solution
 
+
+# class BingoBoard
+
+#   def initialize(board)
+#     @bingo_board = board
+#   end
+#   def check
+#     @bingo_board.map do |index|
+#       if @arry == "B" && index[0] == @numbder
+#         index[0] = "X"
+#       elsif @arry == "I" && index[1] == @numbder
+#         index[1] = "X"
+#       elsif @arry == "N" && index[2] == @numbder
+#         index[2] = "X"
+#       elsif @arry == "G" && index[3] == @numbder
+#         index[3] = "X"
+#       elsif @arry == "O" && index[4] == @numbder
+#         index[4] = "X"
+#       else
+#         @bingo_board
+#       end
+#     end
+#     p @bingo_board
+#   end
+# end
+
+# Refactored Solution
+
 class BingoBoard
 
   def initialize(board)
     @bingo_board = board
+    @b = [board[0][0],board[1][0],board[2][0],board[3][0],board[4][0]]
+    @i = [board[0][1],board[1][1],board[2][1],board[3][1],board[4][1]]
+    @n = [board[0][2],board[1][2],board[2][2],board[3][2],board[4][2]]
+    @g = [board[0][3],board[1][3],board[2][3],board[3][3],board[4][3]]
+    @o = [board[0][4],board[1][4],board[2][4],board[3][4],board[4][4]]# how the fuck do I loop this?
   end
 
   def create_letter
-    @array = ["B", "I", "N", "G", "O"].shuffle.first
-    @number = rand(1...100)
-    gen = @array + @number.to_s
-    p gen
-  end
-
-  def check
-    @bingo_board.map do |index|
-      if @arry == "B" && index[0] == @numbder
-        index[0] = "X"
-      elsif @arry == "B" && index[1] == @numbder
-        index[1] = "X"
-      elsif @arry == "B" && index[2] == @numbder
-        index[2] = "X"
-      elsif @arry == "B" && index[3] == @numbder
-        index[3] = "X"
-      elsif @arry == "B" && index[4] == @numbder
-        index[4] = "X"
-      else
-        @bingo_board
-      end
-    end
-    p @bingo_board
+    array = ["B", "I", "N", "G", "O"].shuffle.first
+    number = rand(1...100)
+    @gen = [array, number.to_s]#ignore for now, coming back at later date to fix
   end
 end
-
-# Refactored Solution
-
-
 
 #DRIVER CODE (I.E. METHOD CALLS) GO BELOW THIS LINE
 board = [[47, 44, 71, 8, 88],
@@ -88,11 +97,15 @@ board = [[47, 44, 71, 8, 88],
         [75, 70, 54, 80, 83]]
 
 new_game = BingoBoard.new(board)
+new_game.create_letter
+# 100.times do
+#   new_game.create_letter
+#   new_game.check
+# end
 
-100.times do
-  new_game.create_letter
-  new_game.check
-end
+
+
+
 #Reflection
 # # How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
 # It was a pretty giant pain to be honest. I felt like I had some ideas of what to do but then I saw they had pre written things and it threw me off
