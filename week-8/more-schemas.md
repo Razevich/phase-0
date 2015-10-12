@@ -1,6 +1,6 @@
 
-![First](../imgs/1)
-![Second](../imgs/2)
+![First](https://github.com/Razevich/phase-0/blob/master/week-8/imgs/1.png)
+![Second](https://github.com/Razevich/phase-0/blob/master/week-8/imgs/2.png)
 What is a one-to-one database?
 A one-to-one is when something has a dirrect link to something else. When there is only one option
 When would you use a one-to-one database? (Think generally, not in terms of the example you created).
