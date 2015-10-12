@@ -13,3 +13,10 @@ def reverse_words(str)
 end
 
 reverse_words("prepare to die")
+
+# #What concepts did you review or learn in this challenge?
+# I reviewed methods and looping
+# # What is still confusing to you about Ruby?
+# Built in methods can be a pain
+# # What are you going to study to get more prepared for Phase 1?
+# Algorythems(sp?)
