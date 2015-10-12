@@ -169,7 +169,12 @@ for (var voter in votes) {
 // Reflection
 
 
-
+// What did you learn about iterating over nested objects in JavaScript?
+// That it is a fucking pain! This challange took forever
+// Were you able to find useful methods to help you with this?
+// Not really, this was all about getting nested info
+// What concepts were solidified in the process of working through this challenge?
+// Getting nested info
 
 
 
