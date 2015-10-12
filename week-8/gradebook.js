@@ -83,6 +83,15 @@ function average(scores){
   var averages=sum/scores.length
   return averages
 };
+
+//-----------------
+
+// What did you learn about adding functions to objects?
+// That it is really simple, just add them like anything else
+// How did you iterate over nested arrays in JavaScript?
+// We did not need to.
+// Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+// No, used only the things I have used in the past
 // __________________________________________
 // Test Code:  Do not alter code below this line.
 
