@@ -46,7 +46,7 @@ var trap_2 = {
 
 var player = {
   pos_x: 5,
-  poy_y: 1,
+  poy_y: 0,
   inventory: [],
   movement: function(direction){
     if (direction === "up") {
@@ -61,7 +61,7 @@ var player = {
     else if (direction === "right") {
       player.pos_x + 1;
     }
-    else{
+    else
       console.log("That is not one of the right choices!" + ' ' + death);
     }
 
@@ -83,7 +83,7 @@ var player = {
   }
 }
 };
-player.movement("down");
+player.movement("up");
 // Refactored Code
 
 
