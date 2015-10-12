@@ -17,3 +17,12 @@ SELECT * FROM states;
 9 SELECT region_name FROM regions WHERE region_name LIKE "%central%";
 
 10 SELECT regions.region_name, states.state_name FROM regions INNER JOIN states ORDER BY region_id;
+
+<!-- What are databases for?
+They are for a easy way to store infomation
+What is a one-to-many relationship?
+When one item can have many items linked to it
+What is a primary key? What is a foreign key? How can you determine which is which?
+The primary key is the main focus, you can use logic
+How can you select information out of a SQL database? What are some general guidelines for that?
+Everything above this should answer that. -->
