@@ -1,4 +1,4 @@
-var add_up =0;
+var add_up = 0;
 var sum = function(input) {
   for (i = 0 ; i < input.length ; i++) {
     add_up += input[i];
